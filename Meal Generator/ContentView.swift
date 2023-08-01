@@ -51,7 +51,7 @@ struct ContentView: View {
                 if let instructions = mealGenerator.currentMeal?.instructions {
                     HStack{
                         
-                        Text("Instructions:").font(.title2)
+                        Text("Instructions:  ").font(.title2)
                         Spacer()
                     }
                     Text(instructions)
